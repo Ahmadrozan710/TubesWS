@@ -1,0 +1,6 @@
+{
+    "require": {
+        "easyrdf/easyrdf": "*",
+        "twbs/bootstrap": "5.3.3"
+    }
+}

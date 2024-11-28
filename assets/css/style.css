@@ -1,0 +1,463 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #f8d7da;
+}
+
+footer .btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #198754;
+}
+
+footer .border-top {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  /* Warna utama Foodies */
+  .btn-foodies {
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    text-transform: uppercase;
+    background-color: #28a745 !important; /* Hijau segar */
+    color: white !important;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) ;
+  }
+
+  .btn-outline-foodies {
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #28a745 !important; /* Hijau segar */
+    border: 2px solid #28a745 !important;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Efek Hover untuk tombol utama */
+  .btn-foodies:hover {
+    background-color: #218838 !important; /* Hijau lebih gelap */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Efek Hover untuk tombol Outline */
+  .btn-outline-foodies:hover {
+    background-color: #28a745 !important;
+    color: white !important;
+    border-color: #218838 !important; /* Hijau lebih gelap */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Warna utama tombol untuk Foodies */
+.btn-green {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    text-transform: uppercase;
+    background-color: #28a745; /* Hijau segar */
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-green:hover {
+    background-color: #218838; /* Hijau lebih gelap */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Warna outline untuk tombol */
+  .btn-outline-green {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #28a745; /* Hijau segar */
+    border: 2px solid #28a745;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-outline-green:hover {
+    background-color: #28a745;
+    color: white;
+    border-color: #218838; /* Hijau lebih gelap */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Menyesuaikan tampilan gambar makanan pada card */
+  .card-img-top {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+  }
+  
+  /* Card shadow */
+  .card {
+    border-radius: 15px;
+  }
+
+  /* Warna utama tombol untuk Foodies */
+.btn-green {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    text-transform: uppercase;
+    background-color: #28a745; /* Hijau segar */
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-green:hover {
+    background-color: #218838; /* Hijau lebih gelap */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Warna outline untuk tombol */
+  .btn-outline-green {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #28a745; /* Hijau segar */
+    border: 2px solid #28a745;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-outline-green:hover {
+    background-color: #28a745;
+    color: white;
+    border-color: #218838; /* Hijau lebih gelap */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Menyesuaikan tampilan gambar makanan pada card */
+  .card-img-top {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+  }
+  
+  /* Card shadow */
+  .card {
+    border-radius: 15px;
+  }
+  
+  /* Gambar dalam container */
+.img-fluid {
+  object-fit: cover;
+  border-radius: 20px;  /* Sudut melengkung untuk gambar */
+  transition: transform 0.3s ease-in-out;  /* Animasi saat hover */
+}
+
+.img-fluid:hover {
+  transform: scale(1.05);  /* Efek zoom saat hover */
+}
+
+/* Gambar tim dengan efek lingkaran dan shadow */
+.card-img-top {
+  object-fit: cover;
+  width: 100%;
+  height: 200px; /* Sesuaikan tinggi gambar */
+  border-radius: 50%;  /* Membuat gambar menjadi lingkaran */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);  /* Menambahkan shadow pada gambar */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);  /* Efek zoom pada gambar saat hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);  /* Menambah shadow saat hover */
+}
+
+/* Efek pada card */
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  /* Efek shadow pada card */
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);  /* Card akan sedikit terangkat saat hover */
+}
+
+/* Shadow pada gambar di section "About Us" */
+.img-fluid.rounded {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Gambar tim berbentuk lingkaran */
+.team-photo {
+    width: 150px;  /* Ukuran gambar 150x150 px */
+    height: 150px; /* Ukuran gambar 150x150 px */
+    border-radius: 50%;  /* Membuat gambar berbentuk lingkaran */
+    object-fit: cover;   /* Menjaga rasio gambar tetap bagus meskipun dipotong */
+    margin-bottom: 20px;  /* Jarak antara gambar dan teks */
+    border: 3px solid #fff;  /* Border putih untuk memberikan efek kontras */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Efek bayangan */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  /* Animasi saat hover */
+}
+
+/* Efek hover pada gambar */
+.team-photo:hover {
+    transform: scale(1.1);  /* Zoom in sedikit saat hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);  /* Menambah bayangan saat hover */
+}
+
+/* Menambahkan margin dan styling pada teks setelah gambar */
+.team-info {
+    text-align: center;
+    padding: 15px;
+}
+
+/* Card info */
+.team-info h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.team-info p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-green:hover {
+  background-color: #1abc9c;
+  color: white;
+}
+
+/* Styling untuk tombol Kembali */
+.btn-outline-primary {
+  background-color: #16a085;
+  color: white;
+  border-color: #16a085;
+  transition: background-color 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
+/* Styling untuk Gambar */
+.card-img-top {
+  object-fit: cover;
+  height: 400px; /* Membuat gambar lebih besar dan proporsional */
+  border-radius: 15px;
+}
+
+/* Styling untuk Deskripsi */
+.card-text {
+  font-size: 1.1rem;
+  color: #34495e;
+}
+
+/* Styling untuk Header dan Bahan-bahan */
+.card-title {
+  font-size: 2.5rem;
+  color: #16a085;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 1.5rem;
+  color: #16a085;
+}
+
+/* Styling untuk Bahan-bahan */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+ul li i {
+  margin-right: 10px;
+  color: #16a085;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+}
+
+.card img {
+  transition: all 0.3s ease;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+}
+
+.menu-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  color: #2c3e50;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.menu-title span {
+  color: #16a085;
+  font-size: 3rem; /* Perbesar huruf pertama */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(to right, #16a085, #2ecc71);
+  margin: 10px auto 0;
+  border-radius: 20px;
+}
+
+/* Navbar link dasar */
+.navbar .nav-link {
+  font-weight: 600;
+  color: #16a085;
+  transition: color 0.3s ease, transform 0.3s ease; /* Transisi halus pada warna dan transformasi */
+}
+
+/* Tombol Explore Menu */
+.btn-custom {
+  background: linear-gradient(135deg, #2ecc71, #16a085); /* Gradasi warna hijau */
+  color: white;
+  border-radius: 50px; /* Membuat sudut tombol bulat */
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 15px rgba(46, 204, 113, 0.3); /* Bayangan lembut di bawah tombol */
+}
+
+/* Efek hover tombol */
+.btn-custom:hover {
+  background: linear-gradient(135deg, #16a085, #2ecc71); /* Membalikkan arah gradasi */
+  transform: scale(1.1); /* Membesarkan tombol sedikit */
+  box-shadow: 0 6px 20px rgba(46, 204, 113, 0.4); /* Menambah bayangan lebih tebal saat hover */
+  cursor: pointer;
+}
+
+/* Efek focus tombol */
+.btn-custom:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(46, 204, 113, 0.6); /* Memberikan efek glow saat tombol difokuskan */
+}
+
+body {
+  font-family: 'Roboto', sans-serif; /* Menggunakan font Roboto untuk teks utama */
+  line-height: 1.6;
+}
+
+.card-body {
+  font-family: 'Poppins', sans-serif; /* Menggunakan font Poppins untuk detail */
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #28a745; /* Warna hijau untuk judul */
+}
+
+.card-text {
+  font-size: 1.1rem;
+  color: #6c757d; /* Warna teks deskripsi */
+  line-height: 1.8;
+}
+
+.list-group-item {
+  font-size: 1.1rem;
+  color: #495057;
+}
+
+.list-group-item strong {
+  font-weight: 600;
+}
+
+.alert-warning {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #856404;
+}
+
+.ratio iframe {
+  border-radius: 10px;
+}
+
+.btn-outline-success:hover {
+    background-color: #198754; /* Warna hijau hover */
+    color: white; /* Ubah warna teks */
+  }
+
+  .rating span {
+    font-size: 14px; /* Ukuran font angka rating */
+    font-weight: bold;
+  }
+  
+  .category-btn.active {
+    background-color: #16a085;
+    color: white;
+    border-color: #16a085;
+  }
+  
+
+
+
+
+

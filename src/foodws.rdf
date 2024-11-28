@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:food="http://example.org/schema/food"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+    <!-- Sayuran -->
+    <food:Description rdf:about="https://dbpedia.org/page/Gado-gado">
+        <rdfs:label>Gado-Gado</rdfs:label>
+        <food:abstract>Gado-gado is an Indonesian salad of raw, slightly boiled, blanched or steamed
+            vegetables</food:abstract>
+        <food:ingredient>Vegetables</food:ingredient>
+        <food:rating>4.5</food:rating>
+        <food:calories>300 kcal</food:calories>
+        <food:protein>10 g</food:protein>
+        <food:fat>20 g</food:fat>
+        <food:carbohydrates>50 g</food:carbohydrates>
+        <food:fiber>5 g</food:fiber>
+        <food:image1>http://commons.wikimedia.org/wiki/Special:FilePath/Gado_gado_jakarta.jpg</food:image1>
+        <foaf:homepage rdf:resource="http://en.wikipedia.org/wiki/Gado-gado" />
+        <foaf:video rdf:resource="https://www.youtube.com/embed/Jm1ThTdVgwo" />
+        <foaf:region rdf:resource="http://dbpedia.org/resource/West_Java" />
+        <foaf:region1 rdf:resource="http://dbpedia.org/resource/Java" />
+        <food:category1>Sayuran</food:category1>
+    </food:Description>
+
+    <food:Description rdf:about="https://dbpedia.org/page/Karedok">
+        <rdfs:label>Karedok</rdfs:label>
+        <food:abstract>Karedok is an Indonesian dish consisting of raw vegetables such as cucumber,
+            bean sprouts, cabbage</food:abstract>
+        <food:ingredient>Vegetables</food:ingredient>
+        <food:rating>4.3</food:rating>
+        <food:calories>250 kcal</food:calories>
+        <food:protein>7 g</food:protein>
+        <food:fat>15 g</food:fat>
+        <food:carbohydrates>30 g</food:carbohydrates>
+        <food:fiber>4 g</food:fiber>
+        <food:image1>http://commons.wikimedia.org/wiki/Special:FilePath/Karedok_in_Ubud_1.jpg</food:image1>
+        <foaf:homepage rdf:resource="http://en.wikipedia.org/wiki/Karedok" />
+        <foaf:video rdf:resource="https://www.youtube.com/embed/gMG57gGdfYc" />
+        <foaf:region rdf:resource="http://dbpedia.org/resource/West_Java" />
+        <foaf:region1 rdf:resource="http://dbpedia.org/resource/Java" />
+        <food:category1>Sayuran</food:category1>
+    </food:Description>
+
+    <food:Description rdf:about="https://dbpedia.org/page/Urap">
+        <rdfs:label>Urap</rdfs:label>
+        <food:abstract>Urap is a traditional Indonesian salad made from steamed vegetables</food:abstract>
+        <food:ingredient>Vegetables</food:ingredient>
+        <food:rating>4.6</food:rating>
+        <food:calories>220 kcal</food:calories>
+        <food:protein>5 g</food:protein>
+        <food:fat>12 g</food:fat>
+        <food:carbohydrates>30 g</food:carbohydrates>
+        <food:fiber>6 g</food:fiber>
+        <food:image1>http://commons.wikimedia.org/wiki/Special:FilePath/Nasi_Kuning_Ibu_Sulastri.jpg</food:image1>
+        <foaf:homepage rdf:resource="http://en.wikipedia.org/wiki/Urap" />
+        <foaf:region rdf:resource="http://dbpedia.org/resource/Central_Java" />
+        <foaf:region1 rdf:resource="http://dbpedia.org/resource/Java" />
+        <foaf:video rdf:resource="https://www.youtube.com/embed/hM6yzDgmCvU" />
+        <food:category1>Sayuran</food:category1>
+    </food:Description>
+
+    <food:Description rdf:about="https://dbpedia.org/page/Pecel">
+        <rdfs:label>Pecel</rdfs:label>
+        <food:abstract>Pecel is an Indonesian salad made of boiled vegetables served with peanut
+            sauce</food:abstract>
+        <food:ingredient>Vegetables</food:ingredient>
+        <food:rating>4.4</food:rating>
+        <food:calories>280 kcal</food:calories>
+        <food:protein>8 g</food:protein>
+        <food:fat>18 g</food:fat>
+        <food:carbohydrates>40 g</food:carbohydrates>
+        <food:fiber>5 g</food:fiber>
+        <food:image1>https://upload.wikimedia.org/wikipedia/commons/e/e8/Pecel_Hariadhi.JPG</food:image1>
+        <foaf:homepage rdf:resource="http://en.wikipedia.org/wiki/Pecel" />
+        <foaf:region rdf:resource="http://dbpedia.org/resource/East_Java" />
+        <foaf:region1 rdf:resource="http://dbpedia.org/resource/Java" />
+        <foaf:video rdf:resource="https://www.youtube.com/embed/dlktUAucBQo" />
+        <food:category1>Sayuran</food:category1>
+    </food:Description>
+
+    <food:Description rdf:about="https://dbpedia.org/page/Lontong">
+        <rdfs:label>Lontong</rdfs:label>
+        <food:abstract>Lontong is a dish made of compressed rice cake, often served with vegetables
+            and peanut sauce</food:abstract>
+        <food:ingredient>Rice</food:ingredient>
+        <food:rating>4.3</food:rating>
+        <food:calories>300 kcal</food:calories>
+        <food:protein>7 g</food:protein>
+        <food:fat>12 g</food:fat>
+        <food:carbohydrates>50 g</food:carbohydrates>
+        <food:fiber>4 g</food:fiber>
+        <food:image1>http://commons.wikimedia.org/wiki/Special:FilePath/Lontong_Cap_Gomeh.jpg</food:image1>
+        <foaf:homepage rdf:resource="http://en.wikipedia.org/wiki/Lontong" />
+        <foaf:region rdf:resource="http://dbpedia.org/resource/Java" />
+        <foaf:video rdf:resource="https://www.youtube.com/embed/kgpzaT5wR0U" />
+        <food:category1>Sayuran</food:category1>
+    </food:Description>
+
+    <food:Description rdf:about="https://dbpedia.org/page/Ketoprak_(dish)">
+        <rdfs:label>Ketoprak</rdfs:label>
+        <food:abstract>Ketoprak is a vegetarian dish from Jakarta, Indonesia, consisting of tofu,
+            vegetables, rice cake, and rice vermicelli served in peanut sauce.</food:abstract>
+        <food:ingredient>Vegetables</food:ingredient>
+        <food:rating>4.5</food:rating>
+        <food:calories>402 kcal</food:calories>
+        <food:protein>15 g</food:protein>
+        <food:fat>15 g</food:fat>
+        <food:carbohydrates>50 g</food:carbohydrates>
+        <food:fiber>4 g</food:fiber>
+        <food:image1>https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ketoprak_Boplo.JPG/1200px-Ketoprak_Boplo.JPG</food:image1>
+        <foaf:homepage rdf:resource="http://en.wikipedia.org/wiki/Ketoprak_(dish)" />
+        <foaf:region rdf:resource="http://dbpedia.org/resource/West_Java" />
+        <foaf:region1 rdf:resource="http://dbpedia.org/resource/Java" />
+        <foaf:video rdf:resource="https://www.youtube.com/embed/OLtDeLrgFrE" />
+        <food:category1>Sayuran</food:category1>
+    </food:Description>
+
+    <!-- Daging -->
+    <food:Description rdf:about="https://dbpedia.org/page/Satay">
+        <rdfs:label>Sate</rdfs:label>
+        <food:abstract>Sate is a Southeast Asian dish of seasoned, skewered and grilled meat, served
+            with a sauce</food:abstract>
+        <food:ingredient>Meat</food:ingredient>
+        <food:rating>4.2</food:rating>
+        <food:calories>400 kcal</food:calories>
+        <food:protein>25 g</food:protein>
+        <food:fat>30 g</food:fat>
+        <food:carbohydrates>10 g</food:carbohydrates>
+        <food:fiber>3 g</food:fiber>
+        <food:category1>Daging</food:category1>
+        <food:category2>Ayam</food:category2>
+        <food:image1>http://commons.wikimedia.org/wiki/Special:FilePath/Sate_Plecing.jpg</food:image1>
+        <foaf:homepage rdf:resource="http://en.wikipedia.org/wiki/Satay" />
+        <foaf:region rdf:resource="http://dbpedia.org/resource/Java" />
+        <foaf:video rdf:resource="https://www.youtube.com/embed/Mke1zJ0T0qI" />
+    </food:Description>
+
+    <food:Description rdf:about="https://dbpedia.org/page/Rendang">
+        <rdfs:label>Rendang</rdfs:label>
+        <food:abstract>Rendang is a rich and tender coconut beef stew which is explosively flavorful</food:abstract>
+        <food:ingredient>Beef</food:ingredient>
+        <food:rating>4.8</food:rating>
+        <food:calories>450 kcal</food:calories>
+        <food:protein>40 g</food:protein>
+        <food:fat>35 g</food:fat>
+        <food:carbohydrates>25 g</food:carbohydrates>
+        <food:fiber>5 g</food:fiber>
+        <food:image1>http://commons.wikimedia.org/wiki/Special:FilePath/Lamb_rendang.jpg</food:image1>
+        <foaf:homepage rdf:resource="http://en.wikipedia.org/wiki/Rendang" />
+        <foaf:region rdf:resource="http://dbpedia.org/resource/West_Sumatra" />
+        <foaf:video rdf:resource="https://www.youtube.com/embed/DMcFqtm1lfY" />
+        <food:category1>Daging</food:category1>
+        <food:category2>Beef</food:category2>
+    </food:Description>
+
+    <food:Description rdf:about="hhttps://dbpedia.org/page/Rawon">
+        <rdfs:label>Rawon</rdfs:label>
+        <food:abstract>Rawon (Javanese: ꦫꦮꦺꦴꦤ꧀) is an Indonesian beef soup. Originating from East
+            Java, rawon utilizes the black keluak nut as the main seasoning, which gives a dark
+            color and nutty flavor to the soup.</food:abstract>
+        <food:ingredient>Beef</food:ingredient>
+        <food:rating>4.7</food:rating>
+        <food:calories>288 kcal</food:calories>
+        <food:protein>23 g</food:protein>
+        <food:fat>17 g</food:fat>
+        <food:carbohydrates>8 g</food:carbohydrates>
+        <food:fiber>1 g</food:fiber>
+        <food:image1>http://commons.wikimedia.org/wiki/Special:FilePath/Rawon_Setan.jpg?width=300</food:image1>
+        <foaf:homepage rdf:resource="http://en.wikipedia.org/wiki/Rawon" />
+        <foaf:region rdf:resource="http://dbpedia.org/resource/East_Java" />
+        <foaf:region1 rdf:resource="http://dbpedia.org/resource/Java" />
+        <foaf:video rdf:resource="https://www.youtube.com/embed/3ZC3U0TYOhs" />
+        <food:category1>Daging</food:category1>
+        <food:category2>Beef</food:category2>
+    </food:Description>
+
+    <!-- Ayam -->
+    <food:Description rdf:about="https://dbpedia.org/page/Ayam_penyet">
+        <rdfs:label>Ayam Penyet</rdfs:label>
+        <food:abstract>Ayam penyet is an Indonesian fried chicken dish consisting of fried chicken
+            smashed with the pestle</food:abstract>
+        <food:ingredient>Fried Chicken</food:ingredient>
+        <food:rating>4.7</food:rating>
+        <food:calories>450 kcal</food:calories>
+        <food:protein>30 g</food:protein>
+        <food:fat>35 g</food:fat>
+        <food:carbohydrates>15 g</food:carbohydrates>
+        <food:fiber>4 g</food:fiber>
+        <food:image1>http://commons.wikimedia.org/wiki/Special:FilePath/Ayam_penyet.jpg</food:image1>
+        <foaf:homepage rdf:resource="http://en.wikipedia.org/wiki/Ayam_penyet" />
+        <foaf:region rdf:resource="http://dbpedia.org/resource/East_Java" />
+        <foaf:region1 rdf:resource="http://dbpedia.org/resource/Java" />
+        <foaf:video rdf:resource="https://www.youtube.com/embed/BtzyUuBX2Pg" />
+        <food:category1>Ayam</food:category1>
+    </food:Description>
+
+    <!-- Aneka Nasi -->
+    <food:Description rdf:about="https://dbpedia.org/page/Nasi_uduk">
+        <rdfs:label>Nasi Uduk</rdfs:label>
+        <food:abstract>Nasi uduk is an Indonesian style steamed rice cooked in coconut milk dish</food:abstract>
+        <food:ingredient>Coconut milk</food:ingredient>
+        <food:rating>4.4</food:rating>
+        <food:calories>350 kcal</food:calories>
+        <food:protein>6 g</food:protein>
+        <food:fat>15 g</food:fat>
+        <food:carbohydrates>50 g</food:carbohydrates>
+        <food:fiber>3 g</food:fiber>
+        <food:image1>http://commons.wikimedia.org/wiki/Special:FilePath/Nasi_uduk_netherlands.jpg</food:image1>
+        <foaf:homepage rdf:resource="http://en.wikipedia.org/wiki/Nasi_uduk" />
+        <foaf:region rdf:resource="http://dbpedia.org/resource/Java" />
+        <foaf:video rdf:resource="https://www.youtube.com/embed/esPA5B5nVH8" />
+        <food:category1>Aneka nasi</food:category1>
+    </food:Description>
+
+    <food:Description rdf:about="https://dbpedia.org/page/Nasi_kuning">
+        <rdfs:label>Nasi Kuning</rdfs:label>
+        <food:abstract>Nasi kuning is a yellow rice dish, often served during Indonesian
+            celebrations</food:abstract>
+        <food:ingredient>Rice</food:ingredient>
+        <food:rating>4.5</food:rating>
+        <food:calories>370 kcal</food:calories>
+        <food:protein>7 g</food:protein>
+        <food:fat>18 g</food:fat>
+        <food:carbohydrates>55 g</food:carbohydrates>
+        <food:fiber>4 g</food:fiber>
+        <food:image1>http://commons.wikimedia.org/wiki/Special:FilePath/Nasi_Kuning.jpg</food:image1>
+        <foaf:homepage rdf:resource="http://en.wikipedia.org/wiki/Nasi_Kuning" />
+        <foaf:region rdf:resource="http://dbpedia.org/resource/Java" />
+        <foaf:video rdf:resource="https://www.youtube.com/embed/0YvgbP21tdE" />
+        <food:category1>Aneka nasi</food:category1>
+    </food:Description>
+
+    <!-- Mie -->
+    <food:Description rdf:about="https://dbpedia.org/page/Mie_ayam">
+        <rdfs:label>Mie Ayam</rdfs:label>
+        <food:abstract>Mie ayam is an Indonesian noodle dish typically served with chicken,
+            vegetables, and sometimes broth. It is a popular dish in many regions of Indonesia.</food:abstract>
+        <food:ingredient>Noodle</food:ingredient>
+        <food:rating>4.7</food:rating>
+        <food:calories>500 kcal</food:calories>
+        <food:protein>16,7 g</food:protein>
+        <food:fat>18 g</food:fat>
+        <food:carbohydrates>46 g</food:carbohydrates>
+        <food:fiber>4 g</food:fiber>
+        <food:image1>https://upload.wikimedia.org/wikipedia/commons/8/82/Mi_ayam_jamur.JPG</food:image1>
+        <foaf:homepage rdf:resource="https://en.wikipedia.org/wiki/Mie_ayam" />
+        <foaf:region rdf:resource="http://dbpedia.org/resource/Java" />
+        <foaf:video rdf:resource="https://www.youtube.com/embed/qg9EI7MEhrI" />
+        <food:category1>Aneka Mie</food:category1>
+    </food:Description>
+
+    <food:Description rdf:about="https://dbpedia.org/page/Mie_aceh">
+        <rdfs:label>Mie Aceh</rdfs:label>
+        <food:abstract>mi aceh ("Aceh noodle") is an Acehnese curried spicy noodle dish</food:abstract>
+        <food:ingredient>Noodle</food:ingredient>
+        <food:rating>4.5</food:rating>
+        <food:calories>430 kcal</food:calories>
+        <food:protein>16 g</food:protein>
+        <food:fat>22 g</food:fat>
+        <food:carbohydrates>55 g</food:carbohydrates>
+        <food:fiber>5 g</food:fiber>
+        <food:image1>https://upload.wikimedia.org/wikipedia/commons/f/f4/Mie_Aceh_with_beef.jpg</food:image1>
+        <foaf:homepage rdf:resource="https://en.wikipedia.org/wiki/Mie_aceh" />
+        <foaf:region rdf:resource="http://dbpedia.org/resource/Aceh" />
+        <foaf:region1 rdf:resource="http://dbpedia.org/resource/Sumatra" />
+        <foaf:video rdf:resource="https://www.youtube.com/embed/OGtn3u23Yjw" />
+        <food:category1>Aneka Mie</food:category1>
+    </food:Description>
+
+    <food:Description rdf:about="https://dbpedia.org/page/Mie_celor">
+        <rdfs:label>Mie Celor</rdfs:label>
+        <food:abstract>Mie celor (meaning: celor/blanched noodle), is a Southeast Asian noodle soup
+            dish served in a coconut milk and shrimp-based broth</food:abstract>
+        <food:ingredient>Noodle</food:ingredient>
+        <food:rating>4.7</food:rating>
+        <food:calories>550 kcal</food:calories>
+        <food:protein>20 g</food:protein>
+        <food:fat>15 g</food:fat>
+        <food:carbohydrates>65 g</food:carbohydrates>
+        <food:fiber>3 g</food:fiber>
+        <food:image1>https://upload.wikimedia.org/wikipedia/commons/8/82/Mie_Celor.jpg</food:image1>
+        <foaf:homepage rdf:resource="https://en.wikipedia.org/wiki/Mie_celor" />
+        <foaf:region rdf:resource="http://dbpedia.org/resource/Palembang" />
+        <foaf:region1 rdf:resource="http://dbpedia.org/resource/South_Sumatra" />
+        <foaf:region2 rdf:resource="http://dbpedia.org/resource/Sumatra" />
+        <foaf:video rdf:resource="https://www.youtube.com/embed/kbWsSC7-qYY" />
+        <food:category1>Aneka Mie</food:category1>
+    </food:Description>
+
+    <!-- cemilan -->
+    <food:Description rdf:about="https://dbpedia.org/page/Pempek">
+        <rdfs:label>Pempek</rdfs:label>
+        <food:abstract>Pempek, mpek-mpek or empek-empek is a savoury Indonesian fishcake delicacy,
+            made of fish and tapioca, from Palembang, South Sumatera, Indonesia. Pempek is served
+            with rich sweet and sour sauce called kuah cuka or kuah cuko (lit. vinegar sauce), or
+            just "cuko". Sometimes local people also eat the dish with yellow noodles and diced up
+            cucumber to balance out the vinegar's sourness.</food:abstract>
+        <food:ingredient>Fish</food:ingredient>
+        <food:rating>4.7</food:rating>
+        <food:calories>234 kcal</food:calories>
+        <food:protein>15 g</food:protein>
+        <food:fat>6 g</food:fat>
+        <food:carbohydrates>28 g</food:carbohydrates>
+        <food:fiber>1 g</food:fiber>
+        <food:image1>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Pempek_Kuah_Cuko.jpg?width=300</food:image1>
+        <foaf:homepage rdf:resource="http://en.wikipedia.org/wiki/Pempek" />
+        <foaf:region rdf:resource="http://dbpedia.org/resource/Palembang" />
+        <foaf:region1 rdf:resource="http://dbpedia.org/resource/South_Sumatra" />
+        <foaf:region2 rdf:resource="http://dbpedia.org/resource/Sumatra" />
+        <foaf:video rdf:resource="https://www.youtube.com/embed/VeepZhxG4Hk" />
+        <food:category1>Cemilan</food:category1>
+        <food:category2>Ikan</food:category2>
+    </food:Description>
+
+    <food:Description rdf:about="https://dbpedia.org/page/Otak-otak">
+        <rdfs:label>Otak-otak</rdfs:label>
+        <food:abstract>Otak-otak (lit. brains in Malay and Indonesian) is a Southeast Asian fish
+            cake made of ground fish mixed with spices and wrapped in leaf parcels. Otak-otak is
+            traditionally served steamed or grilled, encased within the leaf parcel it is cooked in,
+            and can be eaten solely as a snack or with steamed rice as part of a meal.</food:abstract>
+        <food:ingredient>Fish</food:ingredient>
+        <food:rating>4.7</food:rating>
+        <food:calories>227 kcal</food:calories>
+        <food:protein>12 g</food:protein>
+        <food:fat>5 g</food:fat>
+        <food:carbohydrates>34 g</food:carbohydrates>
+        <food:fiber>3 g</food:fiber>
+        <food:image1>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Katong_otak_otak.jpg</food:image1>
+        <foaf:homepage rdf:resource="http://en.wikipedia.org/wiki/Otak-otak" />
+        <foaf:region rdf:resource="http://dbpedia.org/resource/South_Sumatra" />
+        <foaf:region1 rdf:resource="http://dbpedia.org/resource/Sumatra" />
+        <foaf:video rdf:resource="https://www.youtube.com/embed/dxjYvC9c_CQ" />
+        <food:category1>Cemilan</food:category1>
+        <food:category2>Ikan</food:category2>
+    </food:Description>
+</rdf:RDF>
